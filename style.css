@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#section1{
+    width: 100%;
+    height: 100vh;
+    background: url(images/n-n-BtbjCFUvBXs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#logo,
+#logo1{
+    color:#0A2D67;
+    font-weight: bold;
+    text-transform: uppercase;
+}  
+#item{
+    color: grey;
+    text-transform: capitalize
+}
+#item:hover{
+    color: black;
+}
+#log{
+    text-transform: capitalize;
+    color: #1E40C8;
+    background-color: white;
+    border-radius: 7px;
+}
+#sign,
+#riskbtn{
+    border-radius: 7px;
+    text-transform: capitalize;
+    color: white;
+    background-color: #1E40C8;
+}
+.risk{
+    color: #091841;
+    text-transform: capitalize;
+    padding-top: 30px;
+    font-size: 4rem;
+}
+#riskbtn{
+    margin-top: 10px;
+}
+#riskbtn:hover,
+#sign:hover{
+    background-color: #2942a8;
+}
+#imgrow{
+    width: 50%;
+    height: 50vh;
+}
+#sectiontwo{
+    margin-top: 50px;
+}
+#row1{
+    padding: 60px 0;
+}
+#smart{
+    text-transform: capitalize;
+    color: #091841;
+}
+#row2{
+    padding: 60px 20px;
+}
+.head{
+    padding-left:10px;
+    text-transform: capitalize;
+    font-size: 4rem;
+    color: #091841;
+}
+.number{
+    color: #1E40C8;
+    font-weight: bold;
+}
+.para{
+    padding-left: 10px;
+    text-transform: capitalize;
+    color: grey;
+    opacity: 0.9;
+}
+#row3{
+    padding: 50px 0px;
+}
+#sectionthree{
+    background-color: #06184B;
+    color: white;
+    padding: 50px 20px;
+}
+#solution{
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-weight: 400;
+}
+#onerow{
+    padding: 60px;
+}
+.head1{
+    color: white;
+    text-transform: capitalize;
+}
+.para1{
+    text-transform: capitalize;
+    opacity: 0.6;
+}
+.more{
+    color: #1E40C8;
+}
+#work{
+    margin-top: 90px;
+    text-transform: capitalize;
+    font-size: 4rem;
+}
+#tworow{
+    padding: 40px;
+}
+#break{
+    text-transform: capitalize;
+}
+#sectionfour{
+    padding: 100px 20px;
+}
+.protection,
+#test{
+    text-transform: capitalize;
+    color: #091841;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.propara{
+    opacity: 0.7;
+    line-height: 32px;
+}
+#test{
+    font-size: 3rem;
+}
+#sectionfive{
+    padding: 100px 20px;
+}
+.testpara{
+    color: #576691;
+    font-weight: bold;
+}
+.bryan{
+    font-size: 1rem;
+}
+#sectionsix{
+    padding: 100px 20px;
+    background-color: #EEF7FF;
+}
+#score{
+    font-size: 4rem;
+    color: #091841;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#fotrow{
+    padding: 100px 100px 50px 100px;
+}
+#logo1{
+    font-size: 2rem;
+}
+.fotpara{
+    color:#A4AFC2;
+}
+#footlist{
+    text-transform: capitalize;
+    color: #1E40C8;
+}
+@media (max-width:756px){
+    #row2,
+    #onerow,
+    #tworow{
+        text-align: center;
+    }
+    #fotrow{
+        width: 100%;
+        text-align: start;
+    }
+}
